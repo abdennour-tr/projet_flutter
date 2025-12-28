@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Admin",
+      "image": "assets/profile/profile.jpg",
+      "email": "admin@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "u2",
+      "name": "Abdenour TRARI",
+      "image": "assets/profile/profile.jpg",
+      "email": "user@gmail.com",
+      "password": "123456"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "cities": [
+    {
+      "id": "tanger",
+      "name": "Tanger",
+      "position": { "lat": 35.7595, "lng": -5.834 },
+      "description": "Tanger est une ville stratégique reliant l'Europe et l'Afrique, connue pour sa médina, son port et le détroit de Gibraltar.",
+      "category": "city",
+      "images": [
+        "assets/cities/tanger1.jpg",
+        "assets/cities/tanger2.jpg",
+        "assets/cities/tanger3.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Cap Spartel",
+          "position": { "lat": 35.7806, "lng": -5.9581 }
+        },
+        {
+          "name": "Grottes d'Hercule",
+          "position": { "lat": 35.7607, "lng": -5.9326 }
+        }
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "chefchaouen",
+      "name": "Chefchaouen",
+      "position": { "lat": 35.1688, "lng": -5.2636 },
+      "description": "Chefchaouen est célèbre pour ses ruelles peintes en bleu et son atmosphère paisible nichée dans le Rif.",
+      "category": "mountain",
+      "images": [
+        "assets/cities/chefchaouen1.jpg",
+        "assets/cities/chefchaouen2.jpg",
+        "assets/cities/chefchaouen3.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Kasbah de Chefchaouen",
+          "position": { "lat": 35.1685, "lng": -5.263 }
+        },
+        {
+          "name": "Source Ras El Ma",
+          "position": { "lat": 35.171, "lng": -5.258 }
+        }
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "rabat",
+      "name": "Rabat",
+      "position": { "lat": 34.0209, "lng": -6.8417 },
+      "description": "Capitale du Maroc, Rabat combine modernité et patrimoine historique avec ses monuments classés à l'UNESCO.",
+      "category": "city",
+      "images": [
+        "assets/cities/rabat1.jpg",
+        "assets/cities/rabat2.jpg",
+        "assets/cities/rabat3.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Tour Hassan",
+          "position": { "lat": 34.024, "lng": -6.8226 }
+        },
+        {
+          "name": "Kasbah des Oudayas",
+          "position": { "lat": 34.0287, "lng": -6.8365 }
+        }
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "casablanca",
+      "name": "Casablanca",
+      "position": { "lat": 33.5731, "lng": -7.5898 },
+      "description": "Casablanca est la capitale économique du Maroc, connue pour la mosquée Hassan II et son littoral atlantique.",
+      "category": "city",
+      "images": [
+        "assets/cities/casablanca1.jpg",
+        "assets/cities/casablanca2.jpg",
+        "assets/cities/casablanca3.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Mosquée Hassan II",
+          "position": { "lat": 33.6084, "lng": -7.6325 }
+        },
+        {
+          "name": "Corniche Ain Diab",
+          "position": { "lat": 33.5886, "lng": -7.6828 }
+        }
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "marrakech",
+      "name": "Marrakech",
+      "position": { "lat": 31.6295, "lng": -7.9811 },
+      "description": "Marrakech est une ville impériale célèbre pour ses souks, ses palais et la place Jemaa el-Fna.",
+      "category": "city",
+      "images": [
+        "assets/cities/marakech1.jpg",
+        "assets/cities/marakech2.jpg",
+        "assets/cities/marakech3.jpg",
+        "assets/cities/marakech4.jpg",
+        "assets/cities/marakech5.jpg",
+        "assets/cities/marakech6.jpg",
+        "assets/cities/marakech7.jpg",
+        "assets/cities/marakech8.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Jemaa el-Fna",
+          "position": { "lat": 31.6258, "lng": -7.9891 }
+        },
+        {
+          "name": "Jardin Majorelle",
+          "position": { "lat": 31.6416, "lng": -7.9982 }
+        }
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "agadir",
+      "name": "Agadir",
+      "position": { "lat": 30.4278, "lng": -9.5981 },
+      "description": "Agadir est une station balnéaire moderne, réputée pour ses plages, son climat doux et sa corniche.",
+      "category": "beach",
+      "images": [
+        "assets/cities/agadir1.jpg",
+        "assets/cities/agadir2.jpg",
+        "assets/cities/agadir3.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Plage d'Agadir",
+          "position": { "lat": 30.4205, "lng": -9.6225 }
+        },
+        {
+          "name": "Kasbah d'Agadir Oufella",
+          "position": { "lat": 30.438, "lng": -9.6372 }
+        }
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "dakhla",
+      "name": "Dakhla",
+      "position": { "lat": 23.6848, "lng": -15.957 },
+      "description": "Dakhla est une ville côtière du Sahara marocain, idéale pour le kitesurf et les paysages désertiques.",
+      "category": "beach",
+      "images": [
+        "assets/cities/dakhla1.jpg",
+        "assets/cities/dakhla2.jpg",
+        "assets/cities/dakhla3.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Lagune de Dakhla",
+          "position": { "lat": 23.74, "lng": -15.9 }
+        },
+        {
+          "name": "Pointe du Dragon",
+          "position": { "lat": 23.715, "lng": -15.975 }
+        }
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "ouarzazate",
+      "name": "Ouarzazate",
+      "position": { "lat": 30.9133, "lng": -6.8938 },
+      "description": "Ouarzazate, la porte du désert et des célèbres studios de cinéma.",
+      "category": "city",
+      "images": [
+        "assets/cities/ouarzazate1.jpg",
+        "assets/cities/ouarzazate2.jpg",
+        "assets/cities/ouarzazate3.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Kasbah de Taourirt",
+          "position": { "lat": 30.9154, "lng": -6.8973 }
+        },
+        {
+          "name": "Atlas Studios",
+          "position": { "lat": 30.9625, "lng": -6.893 }
+        }
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "zagora",
+      "name": "Zagora",
+      "position": { "lat": 30.3298, "lng": -5.838 },
+      "description": "Zagora, célèbre pour ses dunes et sa proximité au désert du Sahara.",
+      "category": "desert",
+      "images": [
+        "assets/cities/zagora1.jpg",
+        "assets/cities/zagora2.jpg",
+        "assets/cities/zagora3.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Dunes de Tinfou",
+          "position": { "lat": 30.3291, "lng": -5.7965 }
+        },
+        { "name": "Tamegroute", "position": { "lat": 30.3117, "lng": -5.8656 } }
+      ],
+      "rating": 4.4
+    }
+  ]
+}
