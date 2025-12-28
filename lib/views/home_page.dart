@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:projet_flutter/providers/cities_provider.dart';
 import 'package:projet_flutter/providers/favorites_provider.dart';
+import 'package:latlong2/latlong.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/location_provider.dart';
@@ -55,7 +56,7 @@ class _HomePageState extends State<HomePage> {
     if (!mounted) return;
 
     if (position != null) {
-      locationProvider.setPosition(position);
+      locationProvider.setPosition(LatLng(position.latitude, position.longitude));
     } else {
       _showLocationDialog();
     }

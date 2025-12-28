@@ -23,6 +23,8 @@ class _MapPageState extends State<MapPage> with TickerProviderStateMixin {
   LatLng _mapCenter = const LatLng(31.7917, -7.0926);
   double _currentZoom = 6;
 
+  bool _didInitialFit = false;
+
   List<LatLng> route = [];
   double? distance;
   double? duration;
@@ -52,6 +54,28 @@ class _MapPageState extends State<MapPage> with TickerProviderStateMixin {
       cities = loadedCities;
       isLoading = false;
     });
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      _fitToAllMarkers();
+    });
+  }
+
+  void _fitToAllMarkers({LatLng? userPosition}) {
+    if (cities.isEmpty) return;
+
+    final points = <LatLng>[
+      ...cities.map((c) => c.position),
+      if (userPosition != null) userPosition,
+    ];
+
+    final bounds = LatLngBounds.fromPoints(points);
+    _animatedMapController.mapController.fitCamera(
+      CameraFit.bounds(
+        bounds: bounds,
+        padding: const EdgeInsets.fromLTRB(40, 120, 40, 220),
+      ),
+    );
   }
 
   /// ================= ROUTE =================
@@ -178,16 +202,18 @@ class _MapPageState extends State<MapPage> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     final userPosition = context.watch<LocationProvider>().userPosition;
 
-    if (userPosition == null) {
-      return const Scaffold(
-        body: Center(child: Text("📍 Localisation non disponible")),
-      );
-    }
-
     if (isLoading) {
       return const Scaffold(
         body: Center(child: CircularProgressIndicator()),
       );
+    }
+
+    if (!_didInitialFit) {
+      _didInitialFit = true;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (!mounted) return;
+        _fitToAllMarkers(userPosition: userPosition);
+      });
     }
 
     return Scaffold(
@@ -198,7 +224,8 @@ class _MapPageState extends State<MapPage> with TickerProviderStateMixin {
         actions: [
           IconButton(
             icon: const Icon(Icons.my_location),
-            onPressed: () => _centerOnUser(userPosition),
+            onPressed:
+                userPosition == null ? null : () => _centerOnUser(userPosition),
           ),
         ],
       ),
@@ -207,7 +234,7 @@ class _MapPageState extends State<MapPage> with TickerProviderStateMixin {
           FlutterMap(
             mapController: _animatedMapController.mapController,
             options: MapOptions(
-              initialCenter: userPosition,
+              initialCenter: userPosition ?? _mapCenter,
               initialZoom: _currentZoom,
               onPositionChanged: (pos, _) {
                 _mapCenter = pos.center;
@@ -232,13 +259,17 @@ class _MapPageState extends State<MapPage> with TickerProviderStateMixin {
                 ),
               MarkerLayer(
                 markers: [
-                  Marker(
-                    point: userPosition,
-                    width: 40,
-                    height: 40,
-                    child:
-                        const Icon(Icons.person, color: Colors.blue, size: 40),
-                  ),
+                  if (userPosition != null)
+                    Marker(
+                      point: userPosition,
+                      width: 40,
+                      height: 40,
+                      child: const Icon(
+                        Icons.person,
+                        color: Colors.blue,
+                        size: 40,
+                      ),
+                    ),
                   ...cities.map((city) {
                     return Marker(
                       point: city.position,
@@ -246,7 +277,15 @@ class _MapPageState extends State<MapPage> with TickerProviderStateMixin {
                       height: 46,
                       child: GestureDetector(
                         onTap: () async {
-                          await _drawRouteToCity(userPosition, city);
+                          if (userPosition != null) {
+                            await _drawRouteToCity(userPosition, city);
+                          } else {
+                            setState(() {
+                              route = [];
+                              distance = null;
+                              duration = null;
+                            });
+                          }
                           _showCityBottomSheet(context, city);
                         },
                         child: Icon(

@@ -102,7 +102,7 @@
         "assets/cities/marakech1.jpg",
         "assets/cities/marakech2.jpg",
         "assets/cities/marakech3.jpg",
-        "assets/cities/marakech4.jpg",
+        "assets/cities/marakech5.jpg",
         "assets/cities/marakech5.jpg",
         "assets/cities/marakech6.jpg",
         "assets/cities/marakech7.jpg",
@@ -173,9 +173,9 @@
       "description": "Ouarzazate, la porte du désert et des célèbres studios de cinéma.",
       "category": "city",
       "images": [
-        "assets/cities/ouarzazate1.jpg",
-        "assets/cities/ouarzazate2.jpg",
-        "assets/cities/ouarzazate3.jpg"
+        "assets/cities/agadir5.jpg",
+        "assets/cities/agadir6.jpg",
+        "assets/cities/agadir7.jpg"
       ],
       "nearbyPlaces": [
         {
@@ -194,11 +194,11 @@
       "name": "Zagora",
       "position": { "lat": 30.3298, "lng": -5.838 },
       "description": "Zagora, célèbre pour ses dunes et sa proximité au désert du Sahara.",
-      "category": "desert",
+      "category": "nature",
       "images": [
-        "assets/cities/zagora1.jpg",
-        "assets/cities/zagora2.jpg",
-        "assets/cities/zagora3.jpg"
+        "assets/cities/dakhla5.jpg",
+        "assets/cities/dakhla6.jpg",
+        "assets/cities/dakhla7.jpg"
       ],
       "nearbyPlaces": [
         {
@@ -208,6 +208,751 @@
         { "name": "Tamegroute", "position": { "lat": 30.3117, "lng": -5.8656 } }
       ],
       "rating": 4.4
+    },
+    {
+      "id": "fes",
+      "name": "Fès",
+      "position": { "lat": 34.0333, "lng": -5.0 },
+      "description": "Fès est l’une des plus anciennes villes impériales du Maroc, connue pour sa médina, ses artisans et son patrimoine culturel.",
+      "category": "city",
+      "images": [
+        "assets/cities/rabat2.jpg",
+        "assets/cities/casablanca4.jpg",
+        "assets/cities/tanger1.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Université Al Quaraouiyine",
+          "position": { "lat": 34.0632, "lng": -4.9736 }
+        },
+        {
+          "name": "Bab Boujloud",
+          "position": { "lat": 34.0622, "lng": -4.9829 }
+        }
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "meknes",
+      "name": "Meknès",
+      "position": { "lat": 33.8935, "lng": -5.5473 },
+      "description": "Meknès est une ville impériale réputée pour ses remparts, ses portes monumentales et son histoire liée au Sultan Moulay Ismaïl.",
+      "category": "city",
+      "images": [
+        "assets/cities/rabat1.jpg",
+        "assets/cities/chefchaouen2.jpg",
+        "assets/cities/casablanca2.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Bab Mansour",
+          "position": { "lat": 33.895, "lng": -5.561 }
+        },
+        {
+          "name": "Volubilis",
+          "position": { "lat": 34.0729, "lng": -5.5563 }
+        }
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "essaouira",
+      "name": "Essaouira",
+      "position": { "lat": 31.5085, "lng": -9.7595 },
+      "description": "Essaouira est une ville côtière connue pour ses remparts, son port, sa médina et son ambiance artistique.",
+      "category": "beach",
+      "images": [
+        "assets/cities/agadir4.jpg",
+        "assets/cities/agadir6.jpg",
+        "assets/cities/agadir8.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Médina d'Essaouira",
+          "position": { "lat": 31.5131, "lng": -9.77 }
+        },
+        {
+          "name": "Skala de la Ville",
+          "position": { "lat": 31.5125, "lng": -9.7712 }
+        }
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "tetouan",
+      "name": "Tétouan",
+      "position": { "lat": 35.5711, "lng": -5.3724 },
+      "description": "Tétouan est une ville du nord du Maroc, célèbre pour sa médina classée à l’UNESCO et sa proximité avec la Méditerranée.",
+      "category": "city",
+      "images": [
+        "assets/cities/tanger2.jpg",
+        "assets/cities/chefchaouen1.jpg",
+        "assets/cities/rabat3.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Médina de Tétouan",
+          "position": { "lat": 35.5717, "lng": -5.3729 }
+        },
+        {
+          "name": "Place Hassan II",
+          "position": { "lat": 35.5715, "lng": -5.3736 }
+        }
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "ifrane",
+      "name": "Ifrane",
+      "position": { "lat": 33.531, "lng": -5.1107 },
+      "description": "Ifrane est une ville de montagne réputée pour son architecture alpine, ses forêts de cèdres et son climat frais.",
+      "category": "mountain",
+      "images": [
+        "assets/cities/chefchaouen3.jpg",
+        "assets/cities/rabat2.jpg",
+        "assets/cities/agadir7.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Source Vittel",
+          "position": { "lat": 33.5293, "lng": -5.11 }
+        },
+        {
+          "name": "Parc National d'Ifrane",
+          "position": { "lat": 33.5, "lng": -5.05 }
+        }
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "el_jadida",
+      "name": "El Jadida",
+      "position": { "lat": 33.2316, "lng": -8.5007 },
+      "description": "El Jadida est une ville côtière connue pour sa Cité Portugaise, ses remparts et ses plages sur l’Atlantique.",
+      "category": "beach",
+      "images": [
+        "assets/cities/casablanca1.jpg",
+        "assets/cities/casablanca3.jpg",
+        "assets/cities/agadir5.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Cité Portugaise",
+          "position": { "lat": 33.2557, "lng": -8.5077 }
+        },
+        {
+          "name": "Plage d'El Jadida",
+          "position": { "lat": 33.23, "lng": -8.52 }
+        }
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "al_hoceima",
+      "name": "Al Hoceïma",
+      "position": { "lat": 35.2517, "lng": -3.9372 },
+      "description": "Al Hoceïma est une destination méditerranéenne appréciée pour ses criques, ses plages et ses paysages montagneux.",
+      "category": "beach",
+      "images": [
+        "assets/cities/tanger3.jpg",
+        "assets/cities/dakhla4.jpg",
+        "assets/cities/dakhla5.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Plage Quemado",
+          "position": { "lat": 35.2525, "lng": -3.936 }
+        },
+        {
+          "name": "Parc National d'Al Hoceïma",
+          "position": { "lat": 35.254, "lng": -4.092 }
+        }
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "oujda",
+      "name": "Oujda",
+      "position": { "lat": 34.6814, "lng": -1.9086 },
+      "description": "Oujda est une ville de l’Oriental, connue pour son ambiance authentique, ses parcs et son patrimoine.",
+      "category": "city",
+      "images": [
+        "assets/cities/rabat1.jpg",
+        "assets/cities/tanger1.jpg",
+        "assets/cities/dakhla6.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "name": "Parc Lalla Aïcha",
+          "position": { "lat": 34.6817, "lng": -1.909 }
+        },
+        {
+          "name": "Médina d'Oujda",
+          "position": { "lat": 34.681, "lng": -1.9095 }
+        }
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "sale",
+      "name": "Salé",
+      "position": { "lat": 34.0372, "lng": -6.7985 },
+      "description": "Salé est une ville voisine de Rabat, connue pour sa médina, ses remparts et son ambiance authentique.",
+      "category": "city",
+      "images": [
+        "assets/cities/rabat1.jpg",
+        "assets/cities/rabat2.jpg",
+        "assets/cities/rabat3.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Médina de Salé", "position": { "lat": 34.0339, "lng": -6.8094 } },
+        { "name": "Bab Lamrissa", "position": { "lat": 34.035, "lng": -6.808 } }
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "kenitra",
+      "name": "Kénitra",
+      "position": { "lat": 34.261, "lng": -6.58 },
+      "description": "Kénitra est une ville du Gharb, proche de l’océan, connue pour ses espaces verts et sa proximité avec le lac Sidi Boughaba.",
+      "category": "city",
+      "images": [
+        "assets/cities/rabat2.jpg",
+        "assets/cities/casablanca2.jpg",
+        "assets/cities/tanger1.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Lac Sidi Boughaba", "position": { "lat": 34.238, "lng": -6.664 } },
+        { "name": "Plage Mehdia", "position": { "lat": 34.259, "lng": -6.687 } }
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "temara",
+      "name": "Témara",
+      "position": { "lat": 33.9287, "lng": -6.9063 },
+      "description": "Témara est une ville côtière au sud de Rabat, appréciée pour ses plages et son cadre familial.",
+      "category": "beach",
+      "images": [
+        "assets/cities/rabat3.jpg",
+        "assets/cities/casablanca1.jpg",
+        "assets/cities/agadir4.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Plage de Harhoura", "position": { "lat": 33.944, "lng": -6.939 } },
+        { "name": "Forêt de Témara", "position": { "lat": 33.926, "lng": -6.89 } }
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "mohammedia",
+      "name": "Mohammédia",
+      "position": { "lat": 33.6835, "lng": -7.3843 },
+      "description": "Mohammédia est une ville côtière entre Rabat et Casablanca, connue pour ses plages et sa corniche.",
+      "category": "beach",
+      "images": [
+        "assets/cities/casablanca3.jpg",
+        "assets/cities/casablanca4.jpg",
+        "assets/cities/agadir5.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Parc des Villes Jumelées", "position": { "lat": 33.706, "lng": -7.382 } },
+        { "name": "Plage de Mohammédia", "position": { "lat": 33.703, "lng": -7.389 } }
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "settat",
+      "name": "Settat",
+      "position": { "lat": 33.0011, "lng": -7.6166 },
+      "description": "Settat est une ville du plateau central, connue pour son calme et son rôle de carrefour entre plusieurs régions.",
+      "category": "city",
+      "images": [
+        "assets/cities/casablanca2.jpg",
+        "assets/cities/rabat2.jpg",
+        "assets/cities/marakech2.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Parc Hassan II", "position": { "lat": 33.002, "lng": -7.62 } },
+        { "name": "Université Hassan 1er", "position": { "lat": 33.012, "lng": -7.624 } }
+      ],
+      "rating": 4.1
+    },
+    {
+      "id": "safi",
+      "name": "Safi",
+      "position": { "lat": 32.2994, "lng": -9.2372 },
+      "description": "Safi est une ville atlantique réputée pour sa poterie, sa médina et ses spots de surf.",
+      "category": "beach",
+      "images": [
+        "assets/cities/agadir6.jpg",
+        "assets/cities/casablanca1.jpg",
+        "assets/cities/agadir8.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Cité Portugaise", "position": { "lat": 32.296, "lng": -9.235 } },
+        { "name": "Plage de Safi", "position": { "lat": 32.29, "lng": -9.243 } }
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "larache",
+      "name": "Larache",
+      "position": { "lat": 35.1932, "lng": -6.1557 },
+      "description": "Larache est une ville du nord, proche de l’océan, connue pour son port et son ambiance paisible.",
+      "category": "city",
+      "images": [
+        "assets/cities/tanger2.jpg",
+        "assets/cities/tanger1.jpg",
+        "assets/cities/rabat3.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Lixus", "position": { "lat": 35.205, "lng": -6.118 } },
+        { "name": "Corniche de Larache", "position": { "lat": 35.19, "lng": -6.15 } }
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "asilah",
+      "name": "Asilah",
+      "position": { "lat": 35.4652, "lng": -6.0358 },
+      "description": "Asilah est une ville côtière charmante, connue pour ses murs blancs, ses fresques et son festival culturel.",
+      "category": "beach",
+      "images": [
+        "assets/cities/tanger3.jpg",
+        "assets/cities/tanger1.jpg",
+        "assets/cities/agadir4.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Médina d'Asilah", "position": { "lat": 35.465, "lng": -6.034 } },
+        { "name": "Plage d'Asilah", "position": { "lat": 35.47, "lng": -6.04 } }
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "nador",
+      "name": "Nador",
+      "position": { "lat": 35.1681, "lng": -2.9335 },
+      "description": "Nador est une ville du Rif oriental, proche de la lagune de Marchica et de la Méditerranée.",
+      "category": "beach",
+      "images": [
+        "assets/cities/dakhla4.jpg",
+        "assets/cities/dakhla5.jpg",
+        "assets/cities/tanger1.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Lagune de Marchica", "position": { "lat": 35.19, "lng": -2.93 } },
+        { "name": "Mont Gourougou", "position": { "lat": 35.19, "lng": -2.95 } }
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "saidia",
+      "name": "Saïdia",
+      "position": { "lat": 35.0874, "lng": -2.231 },
+      "description": "Saïdia est une station balnéaire méditerranéenne connue pour sa longue plage de sable.",
+      "category": "beach",
+      "images": [
+        "assets/cities/dakhla1.jpg",
+        "assets/cities/dakhla2.jpg",
+        "assets/cities/agadir4.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Marina de Saïdia", "position": { "lat": 35.099, "lng": -2.302 } },
+        { "name": "Plage de Saïdia", "position": { "lat": 35.086, "lng": -2.23 } }
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "berkane",
+      "name": "Berkane",
+      "position": { "lat": 34.917, "lng": -2.316 },
+      "description": "Berkane est une ville de l’Oriental, réputée pour ses vergers d’agrumes et sa proximité avec la Méditerranée.",
+      "category": "city",
+      "images": [
+        "assets/cities/rabat2.jpg",
+        "assets/cities/tanger2.jpg",
+        "assets/cities/casablanca2.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Sidi Slimane Charraa", "position": { "lat": 34.93, "lng": -2.32 } },
+        { "name": "Parc de Berkane", "position": { "lat": 34.92, "lng": -2.33 } }
+      ],
+      "rating": 4.1
+    },
+    {
+      "id": "taza",
+      "name": "Taza",
+      "position": { "lat": 34.214, "lng": -4.01 },
+      "description": "Taza est une ville entre le Rif et le Moyen Atlas, connue pour ses grottes et son parc national.",
+      "category": "nature",
+      "images": [
+        "assets/cities/chefchaouen3.jpg",
+        "assets/cities/rabat3.jpg",
+        "assets/cities/tanger1.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Parc National de Tazekka", "position": { "lat": 34.2, "lng": -4.05 } },
+        { "name": "Grotte Friouato", "position": { "lat": 34.2, "lng": -4.03 } }
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "khenifra",
+      "name": "Khénifra",
+      "position": { "lat": 32.934, "lng": -5.668 },
+      "description": "Khénifra est une ville du Moyen Atlas, entourée de forêts et de paysages naturels.",
+      "category": "mountain",
+      "images": [
+        "assets/cities/chefchaouen2.jpg",
+        "assets/cities/chefchaouen1.jpg",
+        "assets/cities/marakech7.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Sources d'Oum Er-Rbia", "position": { "lat": 32.95, "lng": -5.66 } },
+        { "name": "Lac Aguelmame Azegza", "position": { "lat": 33.02, "lng": -5.67 } }
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "beni_mellal",
+      "name": "Béni Mellal",
+      "position": { "lat": 32.3373, "lng": -6.3498 },
+      "description": "Béni Mellal est une ville au pied du Moyen Atlas, connue pour ses paysages verdoyants et ses cascades proches.",
+      "category": "nature",
+      "images": [
+        "assets/cities/marakech6.jpg",
+        "assets/cities/chefchaouen3.jpg",
+        "assets/cities/rabat2.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Aïn Asserdoun", "position": { "lat": 32.342, "lng": -6.355 } },
+        { "name": "Kasbah Ras El Ain", "position": { "lat": 32.347, "lng": -6.344 } }
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "khouribga",
+      "name": "Khouribga",
+      "position": { "lat": 32.886, "lng": -6.91 },
+      "description": "Khouribga est connue comme la capitale marocaine du phosphate.",
+      "category": "city",
+      "images": [
+        "assets/cities/casablanca2.jpg",
+        "assets/cities/rabat1.jpg",
+        "assets/cities/marakech2.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Musée du Phosphate", "position": { "lat": 32.886, "lng": -6.914 } },
+        { "name": "Parc de Khouribga", "position": { "lat": 32.889, "lng": -6.909 } }
+      ],
+      "rating": 4.0
+    },
+    {
+      "id": "oualidia",
+      "name": "Oualidia",
+      "position": { "lat": 32.7333, "lng": -9.0333 },
+      "description": "Oualidia est une station balnéaire réputée pour sa lagune et ses huîtres.",
+      "category": "beach",
+      "images": [
+        "assets/cities/dakhla2.jpg",
+        "assets/cities/agadir4.jpg",
+        "assets/cities/agadir8.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Lagune d'Oualidia", "position": { "lat": 32.735, "lng": -9.03 } },
+        { "name": "Plage d'Oualidia", "position": { "lat": 32.73, "lng": -9.04 } }
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "tiznit",
+      "name": "Tiznit",
+      "position": { "lat": 29.697, "lng": -9.731 },
+      "description": "Tiznit est une ville du sud, réputée pour ses remparts et son artisanat, notamment l’argent.",
+      "category": "city",
+      "images": [
+        "assets/cities/agadir5.jpg",
+        "assets/cities/agadir6.jpg",
+        "assets/cities/agadir7.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Remparts de Tiznit", "position": { "lat": 29.698, "lng": -9.733 } },
+        { "name": "Souk de Tiznit", "position": { "lat": 29.697, "lng": -9.735 } }
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "taroudant",
+      "name": "Taroudant",
+      "position": { "lat": 30.4703, "lng": -8.875 },
+      "description": "Taroudant est une ville historique entourée de remparts, souvent surnommée la ‘petite Marrakech’.",
+      "category": "monument",
+      "images": [
+        "assets/cities/marakech1.jpg",
+        "assets/cities/agadir6.jpg",
+        "assets/cities/marakech7.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Remparts de Taroudant", "position": { "lat": 30.472, "lng": -8.876 } },
+        { "name": "Souk Arab", "position": { "lat": 30.471, "lng": -8.878 } }
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "guelmim",
+      "name": "Guelmim",
+      "position": { "lat": 28.987, "lng": -10.057 },
+      "description": "Guelmim est une porte du Sahara, connue pour ses marchés traditionnels et son ambiance du sud.",
+      "category": "city",
+      "images": [
+        "assets/cities/dakhla6.jpg",
+        "assets/cities/dakhla7.jpg",
+        "assets/cities/agadir7.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Souk de Guelmim", "position": { "lat": 28.987, "lng": -10.06 } },
+        { "name": "Oued Seyad", "position": { "lat": 28.99, "lng": -10.07 } }
+      ],
+      "rating": 4.1
+    },
+    {
+      "id": "tan_tan",
+      "name": "Tan-Tan",
+      "position": { "lat": 28.438, "lng": -11.103 },
+      "description": "Tan-Tan est une ville du sud-ouest, connue pour le moussem et sa proximité avec l’Atlantique.",
+      "category": "beach",
+      "images": [
+        "assets/cities/dakhla3.jpg",
+        "assets/cities/dakhla4.jpg",
+        "assets/cities/agadir4.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Plage d'El Ouatia", "position": { "lat": 28.49, "lng": -11.34 } },
+        { "name": "Port de Tan-Tan", "position": { "lat": 28.44, "lng": -11.11 } }
+      ],
+      "rating": 4.1
+    },
+    {
+      "id": "laayoune",
+      "name": "Laâyoune",
+      "position": { "lat": 27.1536, "lng": -13.2033 },
+      "description": "Laâyoune est la principale ville du Sahara marocain, avec de larges avenues et une vie urbaine dynamique.",
+      "category": "city",
+      "images": [
+        "assets/cities/dakhla1.jpg",
+        "assets/cities/dakhla2.jpg",
+        "assets/cities/dakhla3.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Place Mechouar", "position": { "lat": 27.153, "lng": -13.207 } },
+        { "name": "Oued Sakia El Hamra", "position": { "lat": 27.16, "lng": -13.21 } }
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "smara",
+      "name": "Smara",
+      "position": { "lat": 26.741, "lng": -11.671 },
+      "description": "Smara est une ville saharienne au caractère authentique et à l’histoire marquante.",
+      "category": "nature",
+      "images": [
+        "assets/cities/dakhla5.jpg",
+        "assets/cities/dakhla6.jpg",
+        "assets/cities/dakhla7.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Oasis de Smara", "position": { "lat": 26.74, "lng": -11.67 } },
+        { "name": "Désert environnant", "position": { "lat": 26.75, "lng": -11.7 } }
+      ],
+      "rating": 4.0
+    },
+    {
+      "id": "errachidia",
+      "name": "Errachidia",
+      "position": { "lat": 31.9314, "lng": -4.4247 },
+      "description": "Errachidia est une ville du Tafilalet, point de départ vers les oasis et les dunes du sud-est.",
+      "category": "city",
+      "images": [
+        "assets/cities/marakech6.jpg",
+        "assets/cities/dakhla6.jpg",
+        "assets/cities/marakech8.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Oasis du Tafilalet", "position": { "lat": 31.95, "lng": -4.39 } },
+        { "name": "Barrages et palmeraies", "position": { "lat": 31.93, "lng": -4.43 } }
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "midelt",
+      "name": "Midelt",
+      "position": { "lat": 32.681, "lng": -4.739 },
+      "description": "Midelt est une ville de montagne entre le Moyen et le Haut Atlas, connue pour ses paysages et son climat.",
+      "category": "mountain",
+      "images": [
+        "assets/cities/chefchaouen2.jpg",
+        "assets/cities/chefchaouen3.jpg",
+        "assets/cities/marakech7.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Cirque de Jaffar", "position": { "lat": 32.7, "lng": -4.8 } },
+        { "name": "Aït Ayach", "position": { "lat": 32.69, "lng": -4.72 } }
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "merzouga",
+      "name": "Merzouga",
+      "position": { "lat": 31.0994, "lng": -4.0127 },
+      "description": "Merzouga est célèbre pour les dunes de l’Erg Chebbi et les excursions dans le désert.",
+      "category": "nature",
+      "images": [
+        "assets/cities/dakhla6.jpg",
+        "assets/cities/dakhla7.jpg",
+        "assets/cities/marakech8.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Erg Chebbi", "position": { "lat": 31.1205, "lng": -4.0118 } },
+        { "name": "Lac Dayet Srij", "position": { "lat": 31.11, "lng": -3.98 } }
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "tinghir",
+      "name": "Tinghir",
+      "position": { "lat": 31.5147, "lng": -5.5328 },
+      "description": "Tinghir est une ville oasis connue pour ses palmeraies et sa proximité des gorges du Todgha.",
+      "category": "nature",
+      "images": [
+        "assets/cities/marakech6.jpg",
+        "assets/cities/dakhla5.jpg",
+        "assets/cities/marakech7.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Gorges du Todgha", "position": { "lat": 31.587, "lng": -5.568 } },
+        { "name": "Palmeraie de Tinghir", "position": { "lat": 31.514, "lng": -5.54 } }
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "azrou",
+      "name": "Azrou",
+      "position": { "lat": 33.434, "lng": -5.221 },
+      "description": "Azrou est une ville du Moyen Atlas, connue pour ses forêts de cèdres et ses singes magots.",
+      "category": "mountain",
+      "images": [
+        "assets/cities/chefchaouen1.jpg",
+        "assets/cities/chefchaouen3.jpg",
+        "assets/cities/rabat2.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Forêt de cèdres", "position": { "lat": 33.44, "lng": -5.18 } },
+        { "name": "Lac d'Afennourir", "position": { "lat": 33.43, "lng": -5.21 } }
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "sidi_ifni",
+      "name": "Sidi Ifni",
+      "position": { "lat": 29.3797, "lng": -10.171 },
+      "description": "Sidi Ifni est une ville côtière du sud, connue pour ses falaises, ses plages et son architecture art déco.",
+      "category": "beach",
+      "images": [
+        "assets/cities/agadir4.jpg",
+        "assets/cities/agadir5.jpg",
+        "assets/cities/dakhla3.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Plage de Legzira", "position": { "lat": 29.37, "lng": -10.19 } },
+        { "name": "Falaises de Sidi Ifni", "position": { "lat": 29.38, "lng": -10.17 } }
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "imlil",
+      "name": "Imlil",
+      "position": { "lat": 31.1367, "lng": -7.919 },
+      "description": "Imlil est un village de montagne, point de départ pour les randonnées vers le Toubkal.",
+      "category": "mountain",
+      "images": [
+        "assets/cities/chefchaouen2.jpg",
+        "assets/cities/marakech7.jpg",
+        "assets/cities/marakech8.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Parc National du Toubkal", "position": { "lat": 31.12, "lng": -7.92 } },
+        { "name": "Cascade d'Imlil", "position": { "lat": 31.136, "lng": -7.918 } }
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "ourika",
+      "name": "Vallée de l'Ourika",
+      "position": { "lat": 31.343, "lng": -7.781 },
+      "description": "La vallée de l’Ourika est une destination nature proche de Marrakech, appréciée pour ses rivières et ses villages.",
+      "category": "nature",
+      "images": [
+        "assets/cities/marakech6.jpg",
+        "assets/cities/marakech7.jpg",
+        "assets/cities/chefchaouen3.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Setti Fatma", "position": { "lat": 31.224, "lng": -7.67 } },
+        { "name": "Rivière Ourika", "position": { "lat": 31.34, "lng": -7.78 } }
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "akchour",
+      "name": "Akchour",
+      "position": { "lat": 35.246, "lng": -5.214 },
+      "description": "Akchour est une région nature près de Chefchaouen, connue pour ses cascades et ses sentiers.",
+      "category": "nature",
+      "images": [
+        "assets/cities/chefchaouen1.jpg",
+        "assets/cities/chefchaouen2.jpg",
+        "assets/cities/chefchaouen3.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Cascades d'Akchour", "position": { "lat": 35.246, "lng": -5.214 } },
+        { "name": "Pont de Dieu", "position": { "lat": 35.25, "lng": -5.21 } }
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "ait_ben_haddou",
+      "name": "Aït Ben Haddou",
+      "position": { "lat": 31.047, "lng": -7.129 },
+      "description": "Aït Ben Haddou est un ksar classé à l’UNESCO, célèbre pour son architecture en terre et ses décors de cinéma.",
+      "category": "monument",
+      "images": [
+        "assets/cities/marakech1.jpg",
+        "assets/cities/marakech3.jpg",
+        "assets/cities/marakech8.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Ksar Aït Ben Haddou", "position": { "lat": 31.0472, "lng": -7.1287 } },
+        { "name": "Oued Ounila", "position": { "lat": 31.05, "lng": -7.13 } }
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "chefchaouen_old_city",
+      "name": "Médina de Chefchaouen",
+      "position": { "lat": 35.1686, "lng": -5.2635 },
+      "description": "La médina de Chefchaouen est célèbre pour ses ruelles bleues, ses places et ses panoramas.",
+      "category": "monument",
+      "images": [
+        "assets/cities/chefchaouen1.jpg",
+        "assets/cities/chefchaouen2.jpg",
+        "assets/cities/chefchaouen3.jpg"
+      ],
+      "nearbyPlaces": [
+        { "name": "Place Outa El Hammam", "position": { "lat": 35.168, "lng": -5.263 } },
+        { "name": "Kasbah", "position": { "lat": 35.1685, "lng": -5.263 } }
+      ],
+      "rating": 4.8
     }
   ]
 }
